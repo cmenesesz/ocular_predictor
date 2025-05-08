@@ -1,0 +1,25 @@
+﻿name: ocular_predictor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.*
+  - ipykernel
+  - ipywidgets
+  - pacmap
+  - typing
+  - tqdm
+  - numpy
+  - pandas
+  - xlsxwriter
+  - matplotlib
+  - opencv
+  - seaborn
+  - Pillow
+  - pathlib
+  - scipy
+  - h5py
+  - plotly
+  - pip
+  - pip:
+    - -e .
+    - tensorboard
